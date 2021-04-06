@@ -1,0 +1,71 @@
+﻿@model IEnumerable<StudentAssignment.Data.Models.Student>;
+@{
+    ViewData["Title"] = "All Students - Assignment";
+}
+<div class="row">
+    <div class="col-12 p-0">
+        <div class="bradcrumb-box text-center bg-dark text-light p-4">
+            <h1>All Students</h1>
+        </div>
+    </div>
+</div>
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.Error
+    </div>
+}
+
+@if (Model != null && Model.Any())
+{
+    <br />
+    <div class="row text-center font-weight-bold pt-2 pb-2 bg-dark text-light">
+        <div class="col-sm-2">
+            Name
+        </div>
+        <div class="col-sm-1">
+            Roll No
+        </div>
+        <div class="col-sm-2">
+            Email
+        </div>
+        <div class="col-sm-2">
+            Phone
+        </div>
+        <div class="col-sm-3">
+            Address
+        </div>
+        <div class="col-sm-2">
+            Action
+        </div>
+    </div>
+    @foreach (var student in Model)
+    {
+        <div class="row text-center pt-2 pb-2 bg-light">
+            <div class="col-sm-2">
+                @student.Name
+            </div>
+            <div class="col-sm-1">
+                @student.RollNo
+            </div>
+            <div class="col-sm-2">
+                @student.Email
+            </div>
+            <div class="col-sm-2">
+                @student.Phone
+            </div>
+            <div class="col-sm-3">
+                @student.Address
+            </div>
+            <div class="col-sm-2">
+                <a href="/home/studentcourses/@student.Id">View Courses</a>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-info" role="alert">
+        No Student Available
+    </div>
+}

@@ -1,0 +1,15 @@
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\bin\Debug\net5.0\StudentAssignment.Data.deps.json
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\bin\Debug\net5.0\StudentAssignment.Data.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\bin\Debug\net5.0\ref\StudentAssignment.Data.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\bin\Debug\net5.0\StudentAssignment.Data.pdb
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.AssemblyInfoInputs.cache
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.AssemblyInfo.cs
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.csproj.CoreCompileInputs.cache
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\ref\StudentAssignment.Data.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.pdb
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\bin\Debug\net5.0\StudentAssignment.Data.runtimeconfig.json
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\bin\Debug\net5.0\StudentAssignment.Data.runtimeconfig.dev.json
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.genruntimeconfig.cache
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.Data\obj\Debug\net5.0\StudentAssignment.Data.csprojAssemblyReference.cache

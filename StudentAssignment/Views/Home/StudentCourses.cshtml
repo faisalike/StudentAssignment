@@ -1,0 +1,112 @@
+﻿@model StudentAssignment.DAL.CustomModels.StudentCoursesModel;
+
+@{
+    ViewData["Title"] = "Student Courses - Assignment";
+}
+<div class="row">
+    <div class="col-12 p-0">
+        <div class="bradcrumb-box text-center bg-dark text-light p-4">
+            <h1>Student Courses</h1>
+        </div>
+    </div>
+</div>
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.Error
+    </div>
+}
+
+@if (Model != null && @Model.Student != null)
+{
+    <br />
+    <div class="card">
+        <h4 class="text-capitalize text-center mt-2">Student Information</h4>
+        <div class="card-body">
+        <table class="table">
+            <tr>
+                <td>Name</td>
+                <td>@Model.Student.Name</td>
+                <td>Roll No</td>
+                <td>@Model.Student.RollNo</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>@Model.Student.Address</td>
+                <td>Result</td>
+                <td><span id="result"></span></td>
+            </tr>
+        </table>
+            <button class="btn btn-primary float-right" onclick="CalulateCourseGPA(@Model.Student.Id,0)">Calculate GPA</button>
+        </div>
+    </div>
+    @if (Model.Courses != null && Model.Courses.Any())
+    {
+        <br />
+        <table class="text-center table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course No</th>
+                    <th>Result</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model.Courses)
+                {
+                    <tr>
+                        <td>
+                            @course.CourseName
+                        </td>
+                        <td>
+                            @course.CourseNo
+                        </td>
+                        <td>
+                            <span id="result-@course.CourseNo">Click to Calculate</span>
+                        </td>
+                        <td>
+                            <button class="btn btn-primary" onclick="CalulateCourseGPA(@Model.Student.Id,@course.CourseNo)">Calculate</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <br />
+        <div class="alert alert-info" role="alert">
+            No Course data for Student.
+        </div>
+    }
+}
+else
+{
+    <br />
+    <div class="alert alert-info" role="alert">
+        No Data For Student.
+    </div>
+}
+<script>
+    function CalulateCourseGPA(studentId, courseId) {
+        let jsonData = JSON.stringify({
+            CourseId: courseId,
+            StudentId: studentId
+        });
+        $.ajax({
+            type: "Post",
+            contentType: 'application/json; charset=UTF-8',
+            url: "/home/CalculateGPA",
+            data: jsonData,
+            success: function (data) {
+                if (courseId != 0) {
+                    $("#result-" + courseId).text(data);
+                }
+                else {
+                    $("#result").text(data);
+                }
+            }
+        });
+    }
+</script>

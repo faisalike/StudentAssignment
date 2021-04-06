@@ -1,0 +1,15 @@
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\bin\Debug\net5.0\StudentAssignment.DAL.deps.json
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\bin\Debug\net5.0\StudentAssignment.DAL.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\bin\Debug\net5.0\ref\StudentAssignment.DAL.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\bin\Debug\net5.0\StudentAssignment.DAL.pdb
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.AssemblyInfoInputs.cache
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.AssemblyInfo.cs
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.csproj.CoreCompileInputs.cache
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\ref\StudentAssignment.DAL.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.pdb
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.csprojAssemblyReference.cache
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\bin\Debug\net5.0\StudentAssignment.Data.dll
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\bin\Debug\net5.0\StudentAssignment.Data.pdb
+C:\Projects\Tasks\Dev\StudentAssignment\StudentAssignment.DAL\obj\Debug\net5.0\StudentAssignment.DAL.csproj.CopyComplete
